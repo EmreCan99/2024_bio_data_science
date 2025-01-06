@@ -1,0 +1,8 @@
+Code,Description,SortOrder
+9999,"Total dwellings,occupied,unoccupied and under construction",1
+999,Total occupied and unoccupied dwellings,2
+11,Occupied dwellings,3
+2,Unoccupied dwellings,4
+21,Residents away,5
+22,Empty dwelling,6
+31,Dwellings under construction,7
