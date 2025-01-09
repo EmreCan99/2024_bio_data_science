@@ -68,3 +68,19 @@ iris_transform.head()
 # %% visualise the whole dataset in 2-D
 sns.set_style("whitegrid")
 sns.scatterplot(x = "PC1",y = "PC2",data = iris_transform,hue = "species",s = 60)
+
+# %% sklearn ile PCA
+from sklearn.decomposition import PCA
+
+sklearn_pca = PCA(n_components=2)
+
+PCs = sklearn_pca.fit_transform(x_std)
+
+iris_transform = pd.DataFrame(PCs,columns=["PC1","PC2"])
+iris_transform = pd.concat([iris_transform,Y],axis=1)
+fig, axes = plt.subplots(figsize=(10,8))
+sns.set_style("whitegrid")
+sns.scatterplot(x="PC1",y="PC2",data = iris_transform,hue="species",s=60)
+
+# %% show the varience of components
+sklearn_pca.explained_variance_ratio_ # 0.72, 0.22
