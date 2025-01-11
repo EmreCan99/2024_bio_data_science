@@ -92,4 +92,29 @@ Upregulated_genes = significant_table[significant_table["log2_fold_change"] > 1.
 Downregulated_genes = significant_table[significant_table["log2_fold_change"] < -1.5]
 DEGs = pd.concat([Upregulated_genes,Downregulated_genes])
 
-# %%
+# %% Cluster Map
+log_expression = pd.concat([df_expression.iloc[:,0], log_expression], axis=1)
+table  = pd.merge(DEGs.iloc[:,:3], log_expression, on="ID_REF")
+
+index = table.iloc[:,1]
+table.set_index(index)
+table = table.iloc[:,3:].set_index(index)
+
+sns.clustermap(table, cmap="coolwarm")
+
+# %% Gene Enrichment Analysis (GEA
+import gseapy as gp
+
+GB_ACC = pd.merge(DEGs.iloc[:,:3], log_expression, on="ID_REF").iloc[:,1]
+
+enr = gp.enrichr(
+    gene_list= GB_ACC.tolist(),
+    gene_sets=["GO_Biological_Process_2017b"],
+    description="test_name",
+    outdir="test/enrichr_kegg",
+    cutoff= 0.5 # test dataset, use lower value from range(0,1))
+)
+
+enr.results[["Gene_set","Term","Overlap","P-value","Genes"]]
+
+

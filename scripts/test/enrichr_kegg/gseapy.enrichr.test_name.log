@@ -1,0 +1,193 @@
+LINE 154 : 2025-01-11 17:59:50,341 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 17:59:50,459 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 17:59:50,983 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 17:59:50,986 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 17:59:51,576 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 17:59:51,820 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 17:59:51,830 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 17:59:51,830 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 17:59:51,832 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 17:59:52,036 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 17:59:52,038 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 17:59:52,671 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 17:59:53,684 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 17:59:53,914 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87209992&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 17:59:53,919 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 17:59:54,327 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87209992&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:00:39,095 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:00:39,102 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:00:39,458 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:00:39,460 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:00:39,926 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:00:40,140 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:00:40,141 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:00:40,141 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:00:40,143 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:00:40,359 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:00:40,360 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:00:40,838 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:00:41,847 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:00:42,076 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210022&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:00:42,078 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:00:42,415 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210022&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:01:46,276 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:01:46,279 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:01:46,489 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:01:46,491 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:01:46,814 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:01:47,027 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:01:47,030 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:01:47,030 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:01:47,032 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:01:47,247 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:01:47,249 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:01:48,186 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:01:49,197 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:01:49,403 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210066&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:01:49,407 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:01:49,932 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210066&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:03:14,292 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:03:14,296 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:03:14,498 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:03:14,501 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:03:14,817 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:03:15,024 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:03:15,026 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:03:15,026 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:03:15,027 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:03:15,234 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:03:15,236 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:03:15,717 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:03:16,726 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:03:16,934 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210118&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:03:16,936 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:03:17,458 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210118&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:03:22,366 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:03:22,372 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:03:22,589 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:03:22,591 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:03:22,912 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:03:23,122 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:03:23,125 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:03:23,125 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:03:23,128 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:03:23,341 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:03:23,343 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:03:23,832 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:03:24,840 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:03:25,049 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210124&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:03:25,054 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:03:25,417 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210124&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:04:33,135 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:04:33,138 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:04:33,342 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:04:33,343 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:04:33,657 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:04:33,872 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:04:33,873 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:04:33,873 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:04:33,874 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:04:34,096 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:04:34,098 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:04:34,604 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:04:35,615 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:04:35,835 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210165&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:04:35,840 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:04:36,182 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210165&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:05:31,125 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:05:31,129 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:05:31,362 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:05:31,373 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:05:31,761 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:05:31,982 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:05:31,986 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:05:31,986 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:05:31,989 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:05:32,214 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:05:32,215 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:05:32,713 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:05:33,724 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:05:33,934 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210207&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:05:33,938 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:05:34,428 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210207&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:10:38,747 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:10:38,752 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:10:38,972 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:10:38,974 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:10:39,326 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:10:39,553 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:10:39,554 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:10:39,554 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:10:39,555 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:10:39,760 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:10:39,761 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:10:40,272 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:10:41,282 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:10:41,577 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210397&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:10:41,580 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:10:42,067 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210397&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:10:53,241 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:10:53,244 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:10:53,455 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:10:53,458 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:10:53,794 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:10:54,007 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:10:54,007 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:10:54,007 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:10:54,008 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:10:54,220 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:10:54,221 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:10:54,703 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:10:55,709 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:10:56,078 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210407&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:10:56,082 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:10:56,544 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210407&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:11:07,110 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:11:07,114 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:11:07,395 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:11:07,396 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:11:08,629 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:11:09,004 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:11:09,005 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:11:09,006 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:11:09,007 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:11:09,416 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:11:09,417 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:11:10,214 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:11:11,222 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:11:11,482 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210418&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:11:11,484 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:11:11,901 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210418&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 154 : 2025-01-11 18:11:45,994 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:11:45,999 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:11:46,239 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:11:46,241 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:11:46,925 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:11:47,233 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:11:47,234 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:11:47,234 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:11:47,235 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:11:47,479 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:11:47,482 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:11:48,517 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:11:49,526 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:11:49,903 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210442&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:11:49,907 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:11:50,376 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210442&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
+LINE 855 : 2025-01-11 18:11:54,710 [DEBUG   ] locator: <matplotlib.ticker.AutoLocator object at 0x16adb3950>
+LINE 154 : 2025-01-11 18:11:54,973 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 243 : 2025-01-11 18:11:54,975 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:11:55,198 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:11:55,200 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:11:55,767 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/datasetStatistics HTTP/11" 200 None
+LINE 158 : 2025-01-11 18:11:56,259 [INFO    ] Libraries are used: GO_Biological_Process_2017b
+LINE 166 : 2025-01-11 18:11:56,260 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2017b
+LINE 167 : 2025-01-11 18:11:56,260 [INFO    ] Analysis name: test_name, Enrichr Library: GO_Biological_Process_2017b
+LINE 243 : 2025-01-11 18:11:56,262 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:11:56,602 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:11:56,607 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:11:57,189 [DEBUG   ] https://maayanlab.cloud:443 "POST /Enrichr/addList HTTP/11" 200 74
+LINE 243 : 2025-01-11 18:11:58,200 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 546 : 2025-01-11 18:11:58,490 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=87210450&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 307 171
+LINE 1051: 2025-01-11 18:11:58,494 [DEBUG   ] Starting new HTTPS connection (1): maayanlab.cloud:443
+LINE 546 : 2025-01-11 18:11:59,161 [DEBUG   ] https://maayanlab.cloud:443 "GET /Enrichr/export?userListId=87210450&filename=GO_Biological_Process_2017b.test_name.reports&backgroundType=GO_Biological_Process_2017b HTTP/11" 200 103
