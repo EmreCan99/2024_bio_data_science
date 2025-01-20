@@ -1,3 +1,5 @@
+import pandas as pd
+
 class Person:
     def __init__(self, fname, lname):
         self.fname = fname
@@ -43,4 +45,9 @@ def sinus(a):
     ydots = np.array(np.sin(xdots))
     
     plt.plot(xdots, ydots)
+
+
+def df_getir(path):
+    df = pd.read_csv(path)
+    return(df.shape)
 
