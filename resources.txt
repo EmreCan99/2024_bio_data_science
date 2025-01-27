@@ -1,0 +1,3 @@
+Bioinformatics with Pyhton Cookbook repo
+https://github.com/PacktPublishing/Bioinformatics-with-Python-Cookbook-third-edition/tree/main
+https://biopython.org/docs/latest/Tutorial/index.html

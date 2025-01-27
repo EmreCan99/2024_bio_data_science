@@ -24,21 +24,22 @@ hdl = Entrez.efetch(db = "nucleotide", id=id_list, rettype="gb")
 # %% 
 recs = list(SeqIO.parse(hdl,"gb"))
 
-# %% These for loops should be separeted
-selected_recs = []
-for rec in recs:
-    if rec.name == "KM288867":
-        break 
-    # print(rec.name)
-    # print(rec.description)
-    selected_recs.append(rec)
+# %% 
+rec = None
 
-for rec in selected_recs:
-    for feature in rec.features:
-        if feature.type == 'gene':
-            print(feature.qualifiers['gene'])
-        elif feature.type == 'exon':
-                loc = feature.location
-                print(loc.start, loc.end, loc.strand)
-        # else: 
-            # print('not processed:\n%s' % feature)
+for i in recs:
+    if i.name == 'KM288867':
+        rec = i
+        break
+print(rec.name)
+print(rec.description)
+
+for feature in rec.features:
+    if feature.type == 'gene':
+        print(feature.qualifiers['gene'])
+    elif feature.type == 'exon':
+        loc = feature.location
+        print('Exon', loc.start, loc.end, loc.strand)
+    else:
+        print('not processed:\n%s' % feature)
+
