@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from Bio import Entrez, SeqIO
+from Bio import Medline
 
 # %% Retrive IDs From NCBI Entrez
 Entrez.email = "emrecanciftci99@gmail.com"
@@ -43,3 +44,21 @@ for feature in rec.features:
     else:
         print('not processed:\n%s' % feature)
 
+# %%
+for name, value in rec.annotations.items():
+    print(name, " : ", value)
+
+# %%
+print(len(rec.seq))
+
+# %%
+refs = rec.annotations["references"]
+
+for ref in refs:
+    if ref.pubmed_id != '':
+        print(ref.pubmed_id)
+        handle = Entrez.efetch(db="pubmed", id = [ref.pubmed_id], rettype="medline", retmode="text")
+        records = Medline.parse(handle)
+        for med_rec in records:
+            for k, v in med_rec.items():
+                print(k, " : ", v)
