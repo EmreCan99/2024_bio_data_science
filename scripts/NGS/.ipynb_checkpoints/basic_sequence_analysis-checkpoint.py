@@ -1,8 +1,7 @@
 # %%
 import pandas as pd
 from Bio import Entrez, SeqIO, SeqRecord
-import matplotlib.pyplot as plt
-import gzip
+
 
 # %% Retrive IDs From NCBI Entrez
 Entrez.email = "emrecanciftci99@gmail.com"
@@ -39,12 +38,3 @@ rna = seq.transcribe()
 print(rna)
 prot = seq.translate()
 print(prot)
-
-# -------------------
-# %% Working with FASTQ
-file = "/Users/emrecanciftci/betik/2024_bio/large_data/SRR003265.filt.fastq.gz"
-recs = SeqIO.parse(gzip.open(file,"rt",encoding="utf-8"), format="fastq")
-
-rec = next(recs)
-print(rec.seq)
-print(rec.description)
