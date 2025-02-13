@@ -96,4 +96,41 @@ ax.set_xlabel('Read distance')
 ax.set_ylabel('Number of N Calls')
 
 # %% Study the distribution of Phred scores
+recs = SeqIO.parse(gzip.open(file,"rt", encoding="utf-8"), format="fastq")
+
+cnt_qual = defaultdict(int)
+
+for rec in recs:
+    for i, qual in enumerate(rec.letter_annotations["phred_quality"]):
+        if i < 25:
+            continue
+        cnt_qual[qual] += 1
+
+tot = sum(cnt_qual.values())
+for qual, cnt in cnt_qual.items():
+    print('%d: %.2f %d' % (qual, 100. * cnt / tot, cnt))
+
+# %% plot hte scores ccording to the read positions 
+recs = SeqIO.parse(gzip.open(file,"rt", encoding="utf-8"), format="fastq")
+
+qual_pos = defaultdict(list)
+for rec in recs:
+    for i, qual in enumerate(rec.letter_annotations["phred_quality"]):
+        if i < 25 or qual == 40:
+            continue
+        pos = i + 1
+        qual_pos[pos].append(qual)
+
+vps = []
+poses = list(qual_pos.keys())
+poses.sort()
+for pos in poses:
+    vps.append(qual_pos[pos])
+fig, ax = plt.subplots(figsize=(16,9))
+sns.boxplot(data=vps, ax=ax)
+ax.set_xticklabels([str(x) for x in range(26, max(qual_pos.keys()) + 1)])
+ax.set_xlabel('Read distance')
+ax.set_ylabel('PHRED score')
+fig.suptitle('Distribution of PHRED scores as a function of read distance')
+
 
